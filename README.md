@@ -192,9 +192,48 @@ o/p:
 
 6. Diagonal Addition of Matrix:
 ```
+#include <iostream>
+using namespace std;
 
+int main() {
+    int n;
+    cout << "Enter the size of the matrix (n x n): ";
+    cin >> n;
 
+    int matrix[n][n];
 
+    cout << "Enter the elements of the matrix:" << endl;
+    for (int i = 0; i < n; ++i) {
+        for (int j = 0; j < n; ++j) {
+            cout << "Enter element at position (" << i << ", " << j << "): ";
+            cin >> matrix[i][j];
+        }
+    }
 
+    int sum = 0;
+
+    // Sum the primary diagonal elements
+    for (int i = 0; i < n; i++) {
+        sum += matrix[i][i];
+    }
+
+    // Display the sum of diagonal elements
+    cout << "Sum of diagonal elements: " << sum << endl;
+
+    return 0;
+}
+```
+o/p:
+
+![image](https://github.com/user-attachments/assets/a77c80c0-ff75-4357-a904-c8fa7b815f39)
 
 # Conclusion: 
+This experiment teaches fundamental programming concepts, particularly how to handle data structures that require multidimensional organization.
+
+Efficiently Store and Manipulate Data: By using 2D arrays, we can store data in a tabular format, making it easier to perform operations such as matrix addition, subtraction, and multiplication.
+
+Develop Problem-Solving Skills: Implementing matrix operations improves logical thinking and problem-solving skills by requiring careful consideration of indices, loops, and data handling.
+Understand Memory Management: Working with 2D arrays in C++ helps you understand how memory is allocated and accessed in programming, particularly when managing rows and columns of data.
+
+Apply concepts to real-world scenarios: Matrix operations are fundamental in many fields, including engineering, computer graphics, machine learning, and scientific computing. Understanding how to implement these in C++ enables us to tackle more complex problems in these areas.
+
