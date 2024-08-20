@@ -1,12 +1,16 @@
 # EXPERIMENT 8
 # Aim:
 To study and implement C++ 2D array matrices.
+# Software Used
+VS Code 
 # Theory:
 The theory behind 2D array matrices in C++ focuses around organizing data into a grid structure with rows and columns to allow for efficient access and manipulation. A 2D array can be thought of as an array of arrays, with each element accessed using a pair of indices (i, j), which represent its row and column positions. In memory, these arrays are stored in adjacent blocks in row-major order, which means that elements are stored row by row. This layout determines how quickly and efficiently data can be accessed and modified.
 
 2D array operations include traversal (iterating through elements), matrix addition or subtraction through the combination of corresponding elements, and multiplication, which involves summing the products of rows and columns from two matrices. To transpose a matrix, flip it over its diagonal, effectively swapping rows and columns.
 
 While 2D arrays provide simplicity and direct indexing, they have drawbacks such as fixed size constraints and the possibility of manual memory management errors. To overcome these limitations and improve functionality, standard libraries like std::vector or specialized libraries like Eigen can be used. These theoretical foundations are required for using 2D arrays in practical applications such as mathematical computations, computer graphics, and data analysis.
+
+CODES:
 
 1. Entering Elements of a Matrix:
    ```
