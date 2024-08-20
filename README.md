@@ -190,7 +190,7 @@ o/p:
 
 ![image](https://github.com/user-attachments/assets/3f9dcc84-72ce-4c55-9dbf-8bd64c8a1996)
 
-6. Diagonal Addition of Matrix:
+5. Diagonal Addition of Matrix:
 ```
 #include <iostream>
 using namespace std;
